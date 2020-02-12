@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>live2d plugin test</title>
+    <link href="/2020/02/13/live2d-plugin-test/"/>
+    <url>/2020/02/13/live2d-plugin-test/</url>
+    
+    <content type="html"><![CDATA[<p>…</p><a id="more"></a><head><link rel="stylesheet" type="text/css" href="/assets/waifu.min.css?v=1.4.2"/><meta name="generator" content="Hexo 4.2.0"></head>  <script src="/assets/jquery.min.js?v=3.3.1"></script>  <!-- 实现拖动效果，需引入 JQuery UI -->  <script src="/assets/jquery-ui.min.js?v=1.12.1"></script>  <div class="waifu">        <div class="waifu-tips"></div>        <canvas id="live2d" class="live2d"></canvas>        <div class="waifu-tool">            <span class="fui-home"></span>            <span class="fui-chat"></span>            <span class="fui-eye"></span>            <span class="fui-user"></span>            <span class="fui-photo"></span>            <span class="fui-info-circle"></span>            <span class="fui-cross"></span>        </div>    </div>  <script src="/assets/waifu-tips.min.js?v=1.4.2"></script>  <script src="/assets/live2d.min.js?v=1.0.5"></script>  <script type="text/javascript">        /* 可直接修改部分参数 */        live2d_settings['waifuEdgeSide'] = 'right:0';        live2d_settings['modelStorage'] = false;        live2d_settings['showF12Message'] = true;        live2d_settings['tipsMessage'] = 'waifu-tips.json'; // 同目录下可省略路径        live2d_settings['hitokotoAPI'] = 'hitokoto.cn';        live2d_settings['waifuDraggable'] = 'unlimited';        live2d_settings['modelId'] = 1; // 默认模型 ID，可在 F12 控制台找到        live2d_settings['modelTexturesId'] = 85; // 默认材质 ID，可在 F12 控制台找到        live2d_settings['modelTexturesRandMode'] = 'rand';        live2d_settings['homePageUrl'] = 'index.html';        live2d_settings['canSwitchModel'] = false;        live2d_settings['showMessage'] = true;        live2d_settings['canSwitchHitokoto'] = false;        live2d_settings['waifuSize'] = '1000x900';          /* 在 initModel 前添加 */        initModel("assets/waifu-tips.json?v=1.4.2")    </script><p></script></p><h1 id="live2d"><a href="#live2d" class="headerlink" title="live2d"></a>live2d</h1><h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2>]]></content>
+    
+    
+    <categories>
+      
+      <category>test</category>
+      
+      <category>plugin</category>
+      
+      <category>live2d</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>test</tag>
+      
+      <tag>live2d</tag>
+      
+      <tag>plugin</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>melissa</title>
+    <link href="/2020/02/13/melissa/"/>
+    <url>/2020/02/13/melissa/</url>
+    
+    <content type="html"><![CDATA[<h1 id="melissa"><a href="#melissa" class="headerlink" title="melissa"></a>melissa</h1><a id="more"></a><iframe src="//player.bilibili.com/player.html?aid=87944448&cid=150249463&page=2" scrolling="no" frameborder="no" framespacing="0" allowfullscreen="true" style="width:100%;" id="display_div" onresize="changeDispalyDivWidth()" onload="changeDispalyDivWidth()"> </iframe><script>function changeDispalyDivWidth(){var div= document.getElementById("display_div");div.style.height=div.clientWidth*0.667+"px";}</script>]]></content>
+    
+    
+    <categories>
+      
+      <category>test</category>
+      
+      <category>video</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>test</tag>
+      
+      <tag>vtb</tag>
+      
+      <tag>nijisanji</tag>
+      
+      <tag>melissa</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>アボガド６cats</title>
+    <link href="/2020/02/12/pictures/"/>
+    <url>/2020/02/12/pictures/</url>
+    
+    <content type="html"><![CDATA[<h1 id="pics"><a href="#pics" class="headerlink" title="pics"></a>pics</h1><h2 id="pics-1"><a href="#pics-1" class="headerlink" title="pics"></a>pics</h2><p><img src="/img/cat1.jpg" srcset="/img/loading.gif" alt=""><br><img src="/img/cat2.jpg" srcset="/img/loading.gif" alt=""><br><img src="/img/cat3.jpg" srcset="/img/loading.gif" alt=""><br><img src="/img/cat4.jpg" srcset="/img/loading.gif" alt=""></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>test</category>
+      
+      <category>picture</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>アボガド６</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>hello-hexo</title>
+    <link href="/2019/02/12/hello-hexo/"/>
+    <url>/2019/02/12/hello-hexo/</url>
+    
+    <content type="html"><![CDATA[<h1 id="试验"><a href="#试验" class="headerlink" title="试验"></a>试验</h1><h2 id="实验"><a href="#实验" class="headerlink" title="实验"></a>实验</h2><p>使用 github pages 服务搭建博客的好处有：</p><ol><li>全是静态文件，访问速度快；</li><li>免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；</li><li>可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于 github 的；<br><img src="/img/21.jpg" srcset="/img/loading.gif" alt="img"></li><li>数据绝对安全，基于 github 的版本管理，想恢复到哪个历史版本都行；</li><li>博客内容可以轻松打包、转移、发布到其它平台；</li><li>等等；</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>test</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>test</tag>
+      
+      <tag>informal</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>My New Post</title>
+    <link href="/2018/02/12/My-New-Post/"/>
+    <url>/2018/02/12/My-New-Post/</url>
+    
+    <content type="html"><![CDATA[<h1 id="图片测试"><a href="#图片测试" class="headerlink" title="图片测试"></a>图片测试</h1><img src="/img/2.jpg" srcset="/img/loading.gif" class="[图片]" title="[800] [600] " alt="测试">]]></content>
+    
+    
+    <categories>
+      
+      <category>test</category>
+      
+      <category>picture</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>test</tag>
+      
+      <tag>picture</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2017/02/12/hello-world/"/>
+    <url>/2017/02/12/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
