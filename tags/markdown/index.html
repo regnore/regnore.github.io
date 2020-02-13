@@ -9,14 +9,16 @@
   <meta charset="UTF-8">
   <link rel="apple-touch-icon" sizes="76x76" href="/img/avatar.png">
   <link rel="icon" type="image/png" href="/img/avatar.png">
+  <link rel="stylesheet" type="text/css" href="/assets/waifu.min.css?v=1.4.2" />
+
   <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="description" content="hexo test">
   <meta name="author" content="Yezm">
   <meta name="keywords" content="">
-  <title>live2d plugin test ~ Regnore</title>
+  <title>标签 - markdown ~ Regnore</title>
 
   <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css"  >
 <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css"  >
@@ -37,9 +39,8 @@
 
 <meta name="generator" content="Hexo 4.2.0"></head>
 
-
 <body>
-  <header style="height: 70vh;">
+  <header style="height: 80vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -118,41 +119,6 @@
             </span>
 
             
-              <br>
-              
-                <p class="mt-3">
-                  <i class="fas fa-calendar-alt" aria-hidden="true"></i>&nbsp;
-                  星期四, 二月 13日 2020, 2:43 凌晨
-                </p>
-              
-
-              <p>
-                
-                  
-                  &nbsp;<i class="far fa-chart-bar"></i>
-                  <span class="post-count">
-                    106 字
-                  </span>&nbsp;
-                
-
-                
-                  
-                  &nbsp;<i class="far fa-clock"></i>
-                  <span class="post-count">
-                      1 分钟
-                  </span>&nbsp;
-                
-
-                
-                  <!-- 不蒜子统计文章PV -->
-                  
-                  &nbsp;<i class="far fa-eye" aria-hidden="true"></i>&nbsp;
-                  <span id="busuanzi_container_page_pv">
-                    <span id="busuanzi_value_page_pv"></span> 次
-                  </span>&nbsp;
-                
-              </p>
-            
           </div>
 
           
@@ -163,151 +129,36 @@
 
   <main>
     
+      <div class="container nopadding-md">
+        <div class="py-5 z-depth-3" id="board">
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+<div class="list-group">
+<!--  <p class="h4">共计 1 篇文章</p>-->
+  <hr>
+  
+    
       
+      <p class="h5">2020</p>
+    
+    <a href="/2020/02/13/md-test/" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">md_test</span>
+      <span style="float: right;">02-13</span>
+    </a>
+  
+</div>
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="d-none d-lg-block col-lg-2"></div>
-    <div class="col-lg-8 nopadding-md">
-      <div class="py-5 z-depth-3" id="board">
-        <div class="post-content mx-auto" id="post">
-          <div class="markdown-body">
-            <p>…</p>
-<a id="more"></a>
-<head><link rel="stylesheet" type="text/css" href="/assets/waifu.min.css?v=1.4.2"/><meta name="generator" content="Hexo 4.2.0"></head>
 
-  <script src="/assets/jquery.min.js?v=3.3.1"></script>
 
-  <!-- 实现拖动效果，需引入 JQuery UI -->
-  <script src="/assets/jquery-ui.min.js?v=1.12.1"></script>
-
-  <div class="waifu">
-        <div class="waifu-tips"></div>
-        <canvas id="live2d" class="live2d"></canvas>
-        <div class="waifu-tool">
-            <span class="fui-home"></span>
-            <span class="fui-chat"></span>
-            <span class="fui-eye"></span>
-            <span class="fui-user"></span>
-            <span class="fui-photo"></span>
-            <span class="fui-info-circle"></span>
-            <span class="fui-cross"></span>
-        </div>
-    </div>
-  <script src="/assets/waifu-tips.min.js?v=1.4.2"></script>
-  <script src="/assets/live2d.min.js?v=1.0.5"></script>
-  <script type="text/javascript">
-        /* 可直接修改部分参数 */
-        live2d_settings['waifuEdgeSide'] = 'right:0';
-        live2d_settings['modelStorage'] = false;
-        live2d_settings['showF12Message'] = true;
-        live2d_settings['tipsMessage'] = 'waifu-tips.json'; // 同目录下可省略路径
-        live2d_settings['hitokotoAPI'] = 'hitokoto.cn';
-        live2d_settings['waifuDraggable'] = 'unlimited';
-        live2d_settings['modelId'] = 1; // 默认模型 ID，可在 F12 控制台找到
-        live2d_settings['modelTexturesId'] = 85; // 默认材质 ID，可在 F12 控制台找到
-        live2d_settings['modelTexturesRandMode'] = 'rand';
-        live2d_settings['homePageUrl'] = 'index.html';
-        live2d_settings['canSwitchModel'] = false;
-        live2d_settings['showMessage'] = true;
-        live2d_settings['canSwitchHitokoto'] = false;
-        live2d_settings['waifuSize'] = '1000x900';  
-        /* 在 initModel 前添加 */
-        initModel("assets/waifu-tips.json?v=1.4.2")
-    </script>
-
-<p></script></p>
-<h1 id="live2d"><a href="#live2d" class="headerlink" title="live2d"></a>live2d</h1><h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2>
-            <hr>
-          </div>
-          <br>
-          <div>
-            <p>
-            
-              <span>
-                <i class="iconfont icon-inbox"></i>
-                
-                  <a class="hover-with-bg" href="/categories/test">test</a>
-                  &nbsp;
-                
-                  <a class="hover-with-bg" href="/categories/plugin">plugin</a>
-                  &nbsp;
-                
-                  <a class="hover-with-bg" href="/categories/live2d">live2d</a>
-                  &nbsp;
-                
-              </span>&nbsp;&nbsp;
-            
-            
-              <span>
-                <i class="iconfont icon-tag"></i>
-                
-                  <a class="hover-with-bg" href="/tags/test">test</a>
-                
-                  <a class="hover-with-bg" href="/tags/live2d">live2d</a>
-                
-                  <a class="hover-with-bg" href="/tags/plugin">plugin</a>
-                
-              </span>
-            
-            </p>
-            
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="d-none d-lg-block col-lg-2 toc-container">
-      
-  <div id="toc">
-    <p class="h4"><i class="far fa-list-alt"></i>&nbsp;目录</p>
-    <div id="tocbot"></div>
-  </div>
-
-    </div>
-  </div>
-</div>
-
-<!-- custom -->
-
-
-<!-- Comments -->
-<div class="col-lg-7 mx-auto nopadding-md">
-  <div class="container comments mx-auto" id="comments">
-    
-      <br><br>
-      
-      
-  <div id="vcomments" style="width: 90%; margin: 0 auto;"></div>
-  <script defer src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script defer src="//unpkg.com/valine/dist/Valine.min.js"></script>
-
-  <script>
-    var notify = 'true' === true;
-    var verify = 'true' === true;
-    var oldLoad = window.onload;
-    window.onload = function () {
-      new Valine({
-        el: '#vcomments',
-        notify: notify,
-        verify: verify,
-        app_id: "74WXELQkxvG8uFiOhwWAGEMs-gzGzoHsz",
-        app_key: "CK7Eotea8G1Ce4meqmqCYOkF",
-        placeholder: "说点什么",
-        avatar: "retro",
-        meta: ['nick', 'mail', 'link'],
-        pageSize: "10",
-      });
-      oldLoad && oldLoad();
-    };
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank" rel="nofollow noopener noopener">comments
-      powered by Valine.</a></noscript>
-
-
-    
-  </div>
-</div>
-
     
   </main>
 
@@ -372,6 +223,48 @@
     
 
   </div>
+
+  <script src="/assets/jquery.min.js?v=3.3.1"></script>
+
+  <!-- 实现拖动效果，需引入 JQuery UI -->
+  <script src="/assets/jquery-ui.min.js?v=1.12.1"></script>
+
+  <div class="waifu" style="z-index:999">
+    <div class="waifu-tips"></div>
+    <canvas id="live2d" class="live2d"></canvas>
+    <div class="waifu-tool">
+      <span class="fui-home"></span>
+      <span class="fui-chat"></span>
+      <span class="fui-eye"></span>
+      <span class="fui-user"></span>
+      <span class="fui-photo"></span>
+      <span class="fui-info-circle"></span>
+      <span class="fui-cross"></span>
+    </div>
+  </div>
+  <script src="/assets/waifu-tips.min.js?v=1.4.2"></script>
+  <script src="/assets/live2d.min.js?v=1.0.5"></script>
+  <script type="text/javascript">
+    /* 可直接修改部分参数 */
+    live2d_settings['waifuEdgeSide'] = 'right:0';
+    live2d_settings['modelStorage'] = false;
+    live2d_settings['showF12Message'] = true;
+    live2d_settings['tipsMessage'] = 'waifu-tips.json'; // 同目录下可省略路径
+    live2d_settings['hitokotoAPI'] = 'hitokoto.cn';
+    live2d_settings['waifuDraggable'] = 'unlimited';
+    live2d_settings['modelId'] = 1; // 默认模型 ID，可在 F12 控制台找到
+    live2d_settings['modelTexturesId'] = 85; // 默认材质 ID，可在 F12 控制台找到
+    live2d_settings['modelTexturesRandMode'] = 'rand';
+    live2d_settings['homePageUrl'] = 'index.html';
+    live2d_settings['canSwitchModel'] = false;
+    live2d_settings['showMessage'] = false;
+    live2d_settings['canSwitchHitokoto'] = false;
+    live2d_settings['waifuSize'] = '300x270';
+    /* 在 initModel 前添加 */
+    initModel("assets/waifu-tips.json?v=1.4.2")
+  </script>
+
+  </script>
 </footer>
 
 <!-- SCRIPTS -->
@@ -385,11 +278,6 @@
   <script src="/js/lazyload.js" ></script>
 
 
-
-  
-    <script src="/lib/tocbot/tocbot.min.js" ></script>
-  
-  <script src="/js/post.js" ></script>
 
 
 
@@ -431,7 +319,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "live2d plugin test&nbsp;",
+        "标签 - markdown&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
@@ -486,7 +374,6 @@
       }
     );
   </script>
-
 
 
 

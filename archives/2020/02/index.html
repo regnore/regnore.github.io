@@ -9,8 +9,10 @@
   <meta charset="UTF-8">
   <link rel="apple-touch-icon" sizes="76x76" href="/img/avatar.png">
   <link rel="icon" type="image/png" href="/img/avatar.png">
+  <link rel="stylesheet" type="text/css" href="/assets/waifu.min.css?v=1.4.2" />
+
   <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="description" content="hexo test">
@@ -36,7 +38,6 @@
 
 
 <meta name="generator" content="Hexo 4.2.0"></head>
-
 
 <body>
   <header style="height: 80vh;">
@@ -144,8 +145,8 @@
       
       <p class="h5">2020</p>
     
-    <a href="/2020/02/13/live2d-plugin-test/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">live2d plugin test</span>
+    <a href="/2020/02/13/md-test/" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">md_test</span>
       <span style="float: right;">02-13</span>
     </a>
   
@@ -233,6 +234,48 @@
     
 
   </div>
+
+  <script src="/assets/jquery.min.js?v=3.3.1"></script>
+
+  <!-- 实现拖动效果，需引入 JQuery UI -->
+  <script src="/assets/jquery-ui.min.js?v=1.12.1"></script>
+
+  <div class="waifu" style="z-index:999">
+    <div class="waifu-tips"></div>
+    <canvas id="live2d" class="live2d"></canvas>
+    <div class="waifu-tool">
+      <span class="fui-home"></span>
+      <span class="fui-chat"></span>
+      <span class="fui-eye"></span>
+      <span class="fui-user"></span>
+      <span class="fui-photo"></span>
+      <span class="fui-info-circle"></span>
+      <span class="fui-cross"></span>
+    </div>
+  </div>
+  <script src="/assets/waifu-tips.min.js?v=1.4.2"></script>
+  <script src="/assets/live2d.min.js?v=1.0.5"></script>
+  <script type="text/javascript">
+    /* 可直接修改部分参数 */
+    live2d_settings['waifuEdgeSide'] = 'right:0';
+    live2d_settings['modelStorage'] = false;
+    live2d_settings['showF12Message'] = true;
+    live2d_settings['tipsMessage'] = 'waifu-tips.json'; // 同目录下可省略路径
+    live2d_settings['hitokotoAPI'] = 'hitokoto.cn';
+    live2d_settings['waifuDraggable'] = 'unlimited';
+    live2d_settings['modelId'] = 1; // 默认模型 ID，可在 F12 控制台找到
+    live2d_settings['modelTexturesId'] = 85; // 默认材质 ID，可在 F12 控制台找到
+    live2d_settings['modelTexturesRandMode'] = 'rand';
+    live2d_settings['homePageUrl'] = 'index.html';
+    live2d_settings['canSwitchModel'] = false;
+    live2d_settings['showMessage'] = false;
+    live2d_settings['canSwitchHitokoto'] = false;
+    live2d_settings['waifuSize'] = '300x270';
+    /* 在 initModel 前添加 */
+    initModel("assets/waifu-tips.json?v=1.4.2")
+  </script>
+
+  </script>
 </footer>
 
 <!-- SCRIPTS -->
@@ -342,7 +385,6 @@
       }
     );
   </script>
-
 
 
 
